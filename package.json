@@ -1,0 +1,29 @@
+{
+  "name": "backend-restapi",
+  "version": "1.0.0",
+  "description": "Restful Api for Test Social Media App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server --exec babel-node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subgero/backend-restapi.git"
+  },
+  "author": "Mr. G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subgero/backend-restapi/issues"
+  },
+  "homepage": "https://github.com/subgero/backend-restapi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0"
+  }
+}
